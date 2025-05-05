@@ -24,6 +24,7 @@ You are a business risk analyst. Return your response strictly in the following 
 
 {{
   "risk_level": "string",
+  "risk_score": "number between 0-100",
   "risk_score_color": "green | yellow | amber | red | purple",
   "top_risks": [
     {{
@@ -40,6 +41,7 @@ Answers:
 
 Return json :
 - Overall Risk Level (e.g., VERY LOW, LOW, MODERATE, HIGH, VERY HIGH)
+- Risk Score (a number between 0-100, where 0 is lowest risk and 100 is highest risk)
 - Risk Score Gauge Color (green, yellow, amber, red, purple)
 - Top 10 Risks Identified (each with a short explanation) and sort them from Higher to Low
 
